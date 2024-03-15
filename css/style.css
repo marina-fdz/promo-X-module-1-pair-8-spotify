@@ -1,0 +1,39 @@
+:root {
+    --spotify-azul: #539cf2;
+    --spotify-verde: #26b758;
+    --spotify-negro: #030303;
+    --spotify-blanco: white;
+    --padding-secciones: 12px;
+}
+
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+  font-weight: 100, 300, 400, 500, 700, 900;
+  font-style: normal, italic;
+}
+
+.cabecera {
+    background-color: var(--spotify-negro);
+    color: var(--spotify-blanco);
+    height: 50px;
+    padding: var(--padding-secciones);
+}
+
+.logo {
+    display: inline-block;
+    max-width: 80px;
+    
+}
+
+.menu {
+    display: inline-block;
+    max-width: 20px;
+    box-align: right;
+    position: absolute;
+    right: 7px;
+}
+
+.prueba-premium {
+    background-color: var(--spotify-azul);
+    padding: var(--padding-secciones);
+}
