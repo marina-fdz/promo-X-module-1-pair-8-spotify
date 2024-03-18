@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="cabecera">
@@ -26,29 +26,37 @@
         </section>
         <article class="beneficios">
             <h2 class="titulo-beneficio">¿Por qué pasarte a Premium?</h2>
-            <section class="descargas">
+            <section class="beneficios-elemento">
                 <img class= "imagen-beneficios" src="./images/benefit-1.png" alt="descarga musica icono">
-                <h4 class="titulo-beneficios">Descarga música.</h4>
-                <p class="descripcion-beneficios">Llévala siempre contigo.</p>
+                <div class="texto-beneficios">
+                    <h4 class="titulo-beneficios">Descarga música.</h4>
+                    <p class="descripcion-beneficios">Llévala siempre contigo.</p>
+                </div>
             </section>
-            <section>
+            <section class="beneficios-elemento">
                 <img class="imagen-beneficios" src="./images/benefit-2.png" alt="sin anuncios icono">
-                <h4 class="titulo-beneficios">Sin anuncios.</h4>
-                <p class="descripcion-beneficios">Disfruta de música sin interrupciones.</p>
+                <div class="texto-beneficios">
+                    <h4 class="titulo-beneficios">Sin anuncios.</h4>
+                    <p class="descripcion-beneficios">Disfruta de música sin interrupciones.</p>
+                </div>
             </section>
-            <section>
+            <section class="beneficios-elemento">
                 <img class= "imagen-beneficios" src="./images/benefit-3.png" alt="opciones musicales icono">
-                <h4 class="titulo-beneficios">Escucha lo que quieras.</h4>
-                <p class="descripcion-beneficios">Incluso en el móvil.</p>
+                <div class="texto-beneficios">
+                    <h4 class="titulo-beneficios">Escucha lo que quieras.</h4>
+                    <p class="descripcion-beneficios">Incluso en el móvil.</p>
+                </div>
             </section>
-            <section>
+            <section class="beneficios-elemento">
                 <img class= "imagen-beneficios" src="./images/benefit-4.png" alt="siguiente canción icono">
-                <h4 class="titulo-beneficios">Salta todas las canciones que quieras.</h4>
-                <p class="descripcion-beneficios">Simplemente dale a siguiente.</p>
+                <div class="texto-beneficios">
+                    <h4 class="titulo-beneficios">Salta todas las canciones que quieras.</h4>
+                    <p class="descripcion-beneficios">Simplemente dale a siguiente.</p>
+                </div>
             </section>
         </article>
     </main>
-    <footer>
+    <footer class="footer">
         <nav class="info-footer">
             <ul class="info-footer-enlaces">
                 <li>Legal</li>
@@ -56,9 +64,13 @@
                 <li>Información sobre los anuncios</li>
              </ul>
         </nav>
-        <p class="info-footer-parrafo">España</p>
-        <img class="info-footer-bandera" src="./images/es.svg" alt="bandera espana">
-        <p class="info-footer-parrafo">©2019 Spotify AB</p>
+        <div class="texto-footer">
+            <div class="espana-footer">
+                <p class="info-footer-parrafo">España</p>
+                 <img class="info-footer-bandera" src="./images/es.svg" alt="bandera espana">
+            </div>
+            <p class="info-footer-parrafo">©2019 Spotify AB</p>
+        </div>
     </footer>
 </body>
 </html>
