@@ -13,6 +13,10 @@ body {
 }
 
 .cabecera {
+    position: sticky;
+    z-index: 100;
+    left: 0;
+    top: 0;
     background-color: var(--spotify-negro);
     color: var(--spotify-blanco);
     height: 50px;
@@ -37,7 +41,7 @@ body {
 .prueba-premium {
     background-color: var(--spotify-azul);
     padding: var(--padding-secciones);
-    background-image: url("../images/premium_dancer.png");
+    /* background-image: url("../images/premium_dancer.png"); */
     background-size: contain;
     background-repeat: no-repeat;
     min-height: 50vh;
@@ -51,16 +55,41 @@ body {
 
 }
 
-.p-small-prueba-premium{
-    font-size: 9px;
+.titulo-prueba-premium{
+    font-size: 42px;
+    padding-top: 100px;
 }
+
+.subtitulo-prueba-premium{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.p-small-prueba-premium{
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.boton-prueba-premium{
+    background-color: var(--spotify-verde);
+    padding: 15px 120px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: var(--spotify-blanco);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* .boton-prueba-premium:hover{
+    background-color: black;
+} */
 
 .beneficios{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    gap: 30px;
+    gap: 60px;
     padding: var(--padding-secciones);
     padding-top: 30px;
     padding-bottom: 100px;
@@ -77,14 +106,28 @@ body {
     height: 100%;
 }
 
+.titulo-beneficio{
+    font-size: 32px;
+    text-align: center;
+}
+
+
 .imagen-beneficios{
-    width: 120px;
+    width: 100px;
 }
 
 .texto-beneficios{
     display:flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 12px;
+}
+
+.titulo-beneficios{
+    font-size: 18px;
+}
+
+.descripcion-beneficios{
+    font-size: 14px;
 }
 
 .footer{
@@ -93,15 +136,21 @@ body {
     display:flex;
     justify-content: space-between;
     padding: var(--padding-secciones);
-    padding-bottom: 30px;
+    padding-bottom: 70px;
     padding-top: 20px;
+    font-size: 11px;
+}
+
+.info-footer{
+    width: 60%;
 }
 
 .info-footer-enlaces{
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    
     gap: 30px;
+    transform: translateY(50%);
 }
 
 .info-footer-enlaces li{
@@ -118,9 +167,11 @@ body {
 .espana-footer{
     display:flex;
     gap: 20px;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
+    align-items: flex-end;
 }
 
 .espana-footer img{
     width: 30px;
 }
+
