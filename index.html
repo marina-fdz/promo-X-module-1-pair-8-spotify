@@ -7,73 +7,86 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/prueba.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+  
+    
 </head>
 <body>
-    <header class="cabecera">
-        <img src="./images/logo.png" alt="logo spotify" class="logo">
-        <nav class="menu">
-            <img src="./images/menu-icon.png" alt="menu icono" class="menu icono">
-            <ul class="menu__nav-list">
-                <li class="menu__nav-list-item">Premium</li>
-                <li class="menu__nav-list-item">Ayuda</li>
-                <li class="menu__nav-list-item">Descargas</li>
-                <li class="menu__nav-list-item">Registrarse</li>
-                <li class="menu__nav-list-item">Iniciar Sesión</li>
+    <header class="header">
+        <img src="./images/logo.png" alt="logo spotify" class="header__logo">
+        <nav class="header__menu">
+            <img src="./images/menu-icon.png" alt="menu icono" class="header__menu--icon">
+            <ul class="menu__nav--list">
+                <li class="menu__nav--list-item">Premium</li>
+                <li class="menu__nav--list-item">Ayuda</li>
+                <li class="menu__nav--list-item">Descargas</li>
+                <li class="menu__nav--list-item">Registrarse</li>
+                <li class="menu__nav--list-item">Iniciar Sesión</li>
 
             </ul>
         </nav>
     </header>
     <main>
-        <section class="prueba-premium">
-            <h1 class="titulo-prueba-premium">Prueba Premium gratis 3 meses</h1>
-            <p class="subtitulo-prueba-premium">Escucha millones de canciones sin anuncions, a la carta y sin conexión.</p>
-            <a class= "boton-prueba-premium" href="#">VER PLANES</a>
-            <p class="p-small-prueba-premium">Rigen términos y condiciones. Los tres meses gratis no están disponibles para usuarios que ya hayan probado Premium.</p>
+        <section class="premium">
+            <h1 class="premium__title">Prueba Premium gratis 3 meses</h1>
+            <p class="premium__text--one">Escucha millones de canciones sin anuncions, a la carta y sin conexión.</p>
+            <a class= "premium__button" href="#">VER PLANES</a>
+            <p class="premium__text--two">Rigen términos y condiciones. Los tres meses gratis no están disponibles para usuarios que ya hayan probado Premium.</p>
         </section>
-        <article class="beneficios">
-            <h2 class="titulo-beneficio">¿Por qué pasarte a Premium?</h2>
-            <section class="beneficios-elemento">
-                <img class= "imagen-beneficios" src="./images/benefit-1.png" alt="descarga musica icono">
-                <div class="texto-beneficios">
-                    <h4 class="titulo-beneficios">Descarga música.</h4>
-                    <p class="descripcion-beneficios">Llévala siempre contigo.</p>
+    
+
+        <article class="benefits">
+
+            <h2 class="benefits__title">¿Por qué pasarte a Premium?</h2>
+         
+
+            <section class="benefits__section">
+                <img class= "benefits__section--image" src="./images/benefit-1.png" alt="descarga musica icono">
+                <div class="benefits__section--text">
+                    <h4 class="benefits__section--title">Descarga música.</h4>
+                    <p class="benefits__section--desc">Llévala siempre contigo.</p>
                 </div>
             </section>
-            <section class="beneficios-elemento">
-                <img class="imagen-beneficios" src="./images/benefit-2.png" alt="sin anuncios icono">
-                <div class="texto-beneficios">
-                    <h4 class="titulo-beneficios">Sin anuncios.</h4>
-                    <p class="descripcion-beneficios">Disfruta de música sin interrupciones.</p>
+
+            <section class="benefits__section">
+                <img class="benefits__section--image" src="./images/benefit-2.png" alt="sin anuncios icono">
+                <div class="benefits__section--text">
+                    <h4 class="benefits__section--title">Sin anuncios.</h4>
+                    <p class="benefits__section--desc">Disfruta de música sin interrupciones.</p>
                 </div>
             </section>
-            <section class="beneficios-elemento">
-                <img class= "imagen-beneficios" src="./images/benefit-3.png" alt="opciones musicales icono">
-                <div class="texto-beneficios">
-                    <h4 class="titulo-beneficios">Escucha lo que quieras.</h4>
-                    <p class="descripcion-beneficios">Incluso en el móvil.</p>
+
+            <section class="benefits__section">
+                <img class= "benefits__section--image" src="./images/benefit-3.png" alt="opciones musicales icono">
+                <div class="benefits__section--text">
+                    <h4 class="benefits__section--title">Escucha lo que quieras.</h4>
+                    <p class="benefits__section--desc">Incluso en el móvil.</p>
                 </div>
             </section>
-            <section class="beneficios-elemento">
-                <img class= "imagen-beneficios" src="./images/benefit-4.png" alt="siguiente canción icono">
-                <div class="texto-beneficios">
-                    <h4 class="titulo-beneficios">Salta todas las canciones que quieras.</h4>
-                    <p class="descripcion-beneficios">Simplemente dale a siguiente.</p>
+
+            <section class="benefits__section">
+                <img class= "benefits__section--image" src="./images/benefit-4.png" alt="siguiente canción icono">
+                <div class="benefits__section--text">
+                    <h4 class="benefits__section--title">Salta todas las canciones que quieras.</h4>
+                    <p class="benefits__section--desc">Simplemente dale a siguiente.</p>
                 </div>
             </section>
+
+            
+
         </article>
     </main>
     <footer class="footer">
-        <nav class="info-footer">
-            <ul class="info-footer-enlaces">
+        <nav class="footer__info">
+            <ul class="footer__info--links">
                 <li>Legal</li>
                 <li>Cookies</li>
                 <li>Información sobre los anuncios</li>
              </ul>
         </nav>
-        <div class="texto-footer">
-            <div class="espana-footer">
+        <div class="footer__text">
+            <div class="footer__flag">
                 <p class="info-footer-parrafo">España</p>
                  <img class="info-footer-bandera" src="./images/es.svg" alt="bandera espana">
             </div>
