@@ -5,7 +5,9 @@
     --spotify-blanco: white;
     --padding-secciones: 12px;
 }
-
+html{
+    font-size: 62.5%;
+}
 body {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: 100, 300, 400, 500, 700, 900;
@@ -45,7 +47,6 @@ body {
 .prueba-premium {
     background-color: var(--spotify-azul);
     padding: var(--padding-secciones);
-    /* background-image: url("../images/premium_dancer.png"); */
     min-height: 50vh;
     color: var(--spotify-blanco);
     display: flex;
@@ -169,7 +170,6 @@ body {
 .espana-footer{
     display:flex;
     gap: 20px;
-    /* justify-content: flex-end; */
     align-items: flex-end;
 }
 
@@ -184,8 +184,22 @@ body {
         background-size: contain;
         background-repeat: no-repeat;
         align-items: flex-start;
+        padding-left: 3rem;
     }
     .titulo-prueba-premium{
-        
+        font-size: 8rem;
+        padding-top: 80px;
+    }
+    .subtitulo-prueba-premium{
+        font-size: 2.9rem;
+    }
+    .p-small-prueba-premium{
+        padding-right: 35rem;
+        line-height: 2;
+    }
+    .boton-prueba-premium{
+        padding: 1.5rem 6rem;
+        margin-top: 3.5rem;
+        /* margin-bottom: 1rem; */
     }
 }
