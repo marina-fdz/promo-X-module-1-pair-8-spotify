@@ -14,6 +14,7 @@ body {
     font-style: normal, italic;
 }
 
+
 .header{
     position: sticky;
     z-index: 100;
@@ -182,15 +183,16 @@ body {
 @media (min-width:480px){
     .premium{
         background-image:url("../images/premium_dancer.png");
-        background-position: right;
-        background-size: contain;
+        background-position: bottom right;
+        background-size: 43rem, contain;
         background-repeat: no-repeat;
         align-items: flex-start;
         padding-left: 3rem;
+
     }
     .premium__title{
         font-size: 8rem;
-        padding-top: 80px;
+         padding-top: 80px;
     }
     .premium__text--one{
         font-size: 2.9rem;
@@ -203,6 +205,28 @@ body {
         padding: 1.5rem 6rem;
         margin-top: 3.5rem;
         /* margin-bottom: 1rem; */
+    }
+
+    .benefits__container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .benefits__section{
+        width: 50%;
+    }
+
+    .footer{
+        width: 100%;
+
+    }
+
+    .header__menu--icon{
+        display: none;
+    }
+
+    .menu__nav--list{
+        display: flex;
     }
 
 }
