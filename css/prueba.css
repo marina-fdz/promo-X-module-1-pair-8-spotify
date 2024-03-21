@@ -12,6 +12,9 @@ body {
     font-family: "Radio canada";
     font-weight: 100, 300, 400, 500, 700, 900;
     font-style: normal, italic;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 
@@ -48,6 +51,10 @@ body {
     display:none;
 }
 
+main{
+    flex-grow: 2;
+}
+
 .premium {
     background-color: var(--spotify-azul);
     padding: var(--padding-secciones);
@@ -58,7 +65,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     gap: 30px;
-    height: 100%;
+    /* height: 100%; */
 
 }
 
@@ -72,7 +79,7 @@ body {
     font-weight: bold;
 }
 
-.p-small-prueba-premium{
+.premium__text--two{
     font-size: 12px;
     padding-bottom: 20px;
 }
@@ -96,10 +103,19 @@ body {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    gap: 60px;
     padding: var(--padding-secciones);
     padding-top: 30px;
     padding-bottom: 100px;
+}
+
+.benefits__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 60px;
+    padding: var(--padding-secciones);
+   
 }
 
 .benefits__title{
@@ -111,16 +127,18 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: flex-start;
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
     gap: 20px;
     height: 100%;
+    transform: translateX(-1rem);
 }
 
 
 .benefits__section--image{
-    width: 100px;
+    width: 8rem;
 }
 
 .benefits__section--text{
@@ -184,7 +202,8 @@ body {
     .premium{
         background-image:url("../images/premium_dancer.png");
         background-position: bottom right;
-        background-size: 43rem, contain;
+        /* background-size: 43rem, contain; */
+        background-size: contain;
         background-repeat: no-repeat;
         align-items: flex-start;
         padding-left: 3rem;
@@ -209,11 +228,17 @@ body {
 
     .benefits__container{
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
+        gap: 0;
+        padding: var(--padding-secciones);
     }
 
     .benefits__section{
+        padding-top: 4rem;
         width: 50%;
+        display: flex;
+        transform: translateX(1rem);
     }
 
     .footer{
@@ -230,5 +255,73 @@ body {
         list-style: none;
         gap:2rem;
     }
+
+}
+
+ /* tablet 768 ? */
+
+ /* Desktop */
+
+@media (min-width:1024px){
+    
+    .premium{
+        min-height: 35vh;
+        gap: 10px;
+    }
+
+    .premium__text--two{
+        padding-top: 25px;
+        max-width: 80%;
+    }
+
+    .premium__title{
+        width: 90%;
+        padding-top: 20px;
+        padding-bottom: 5%;
+    }
+
+    .benefits{
+        padding-bottom: 30px;
+    }
+
+    .benefits__title{
+        padding-top: 25px;
+    }
+
+    .benefits__container{
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .benefits__section{
+        display: flex;
+        flex-direction: column;
+        width: 22%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .benefits__section--image{
+        width: 10rem;
+    }
+    
+    .benefits__section--text{
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .benefits__section--title{
+        text-align: center;
+    }
+
+    .benefits__section--desc{
+        text-align: center;
+    }
+
+    .footer{
+        max-height: 2.5rem;
+    }
+
 
 }
