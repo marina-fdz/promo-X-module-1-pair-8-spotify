@@ -35,8 +35,8 @@ body {
 }
 
 .header__menu{
-    max-width: 20px;
-    right: 7px;
+    /* max-width: 20px;
+    right: 7px; */
 }
 
 .header__menu--icon{
@@ -227,6 +227,8 @@ body {
 
     .menu__nav--list{
         display: flex;
+        list-style: none;
+        gap:2rem;
     }
 
 }
