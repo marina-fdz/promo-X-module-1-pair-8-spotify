@@ -1,0 +1,40 @@
+@import '../core/variables';
+
+.premium {
+    background-color: $spotifyAzul;
+    padding: $paddingSecciones;
+    min-height: 50vh;
+    color: $spotifyBlanco;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    /* height: 100%; */
+
+}
+
+.premium__title{
+    font-size: 42px;
+    padding-top: 100px;
+}
+
+.premium__text--one{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.premium__text--two{
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.premium__button{
+    background-color: $spotifyVerde;
+    padding: 15px 120px;
+    border-radius: 50px;
+    text-decoration: none;
+    color: $spotifyBlanco;
+    font-weight: bold;
+    font-size: 12px;
+}

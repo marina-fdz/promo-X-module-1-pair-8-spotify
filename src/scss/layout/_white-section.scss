@@ -1,0 +1,57 @@
+@import '../core/variables';
+.benefits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: $paddingSecciones;
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+
+.benefits__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 60px;
+    padding: $paddingSecciones;
+   
+}
+
+.benefits__title{
+    font-size: 32px;
+    text-align: center;
+}
+
+.benefits__section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    gap: 20px;
+    height: 100%;
+    transform: translateX(-1rem);
+}
+
+
+.benefits__section--image{
+    width: 8rem;
+}
+
+.benefits__section--text{
+    display:flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.benefits__section--title{
+    font-size: 18px;
+}
+
+.benefits__section--desc{
+    font-size: 14px;
+}

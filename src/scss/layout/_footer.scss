@@ -1,0 +1,45 @@
+@import '../core/variables';
+
+
+.footer{
+    background-color: $spotifyNegro;
+    color: $spotifyBlanco;
+    display:flex;
+    justify-content: space-between;
+    padding:$paddingSecciones;
+    padding-bottom: 70px;
+    padding-top: 20px;
+    font-size: 11px;
+}
+
+.footer__info{
+    width: 60%;
+}
+
+.footer__info--links{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    transform: translateY(50%);
+}
+
+.footer__info--links li{
+    list-style: none;
+}
+
+.footer__text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer__flag{
+    display:flex;
+    gap: 20px;
+    align-items: flex-end;
+}
+
+.footer__flag img{
+    width: 30px;
+}

@@ -1,0 +1,126 @@
+@import '../core/variables';
+
+@media (min-width:480px){
+    .premium{
+        background-image:url("../images/premium_dancer.png");
+        background-position: bottom right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        align-items: flex-start;
+        padding-left: 3rem;
+
+    }
+    .premium__title{
+        font-size: 8rem;
+         padding-top: 80px;
+    }
+    .premium__text--one{
+        font-size: 2.9rem;
+    }
+    .premium__text--two{
+        padding-right: 35rem;
+        line-height: 2;
+    }
+    .premium__button{
+        padding: 1.5rem 6rem;
+        margin-top: 3.5rem;
+        /* margin-bottom: 1rem; */
+    }
+
+    .benefits__container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0;
+        padding:$paddingSecciones;
+    }
+
+    .benefits__section{
+        padding-top: 4rem;
+        width: 50%;
+        display: flex;
+        transform: translateX(1rem);
+    }
+
+    .footer{
+        width: 100%;
+
+    }
+
+    .header__menu--icon{
+        display: none;
+    }
+
+    .menu__nav--list{
+        display: flex;
+        list-style: none;
+        gap:2rem;
+    }
+
+}
+
+
+@media (min-width:1024px){
+    
+    .premium{
+        min-height: 35vh;
+        gap: 10px;
+    }
+
+    .premium__text--two{
+        padding-top: 25px;
+        max-width: 80%;
+    }
+
+    .premium__title{
+        width: 90%;
+        padding-top: 20px;
+        padding-bottom: 5%;
+    }
+
+    .benefits{
+        padding-bottom: 30px;
+    }
+
+    .benefits__title{
+        padding-top: 25px;
+    }
+
+    .benefits__container{
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .benefits__section{
+        display: flex;
+        flex-direction: column;
+        width: 22%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .benefits__section--image{
+        width: 10rem;
+    }
+    
+    .benefits__section--text{
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+    }
+
+    .benefits__section--title{
+        text-align: center;
+    }
+
+    .benefits__section--desc{
+        text-align: center;
+    }
+
+    .footer{
+        max-height: 2.5rem;
+    }
+
+   
+
+}
