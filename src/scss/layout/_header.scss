@@ -1,0 +1,28 @@
+.header{
+    position: sticky;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    background-color: $spotifyNegro;
+    color: $spotifyBlanco;
+    height: 50px;
+    padding: $paddingSecciones;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo{
+    max-width: 80px;
+    
+}
+
+
+.header__menu--icon{
+    width: 2rem;
+    height: 2rem;
+}
+
+.menu__nav--list{
+    display:none;
+}

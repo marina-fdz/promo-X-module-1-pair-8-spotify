@@ -7,17 +7,9 @@
 @import 'layout/footer';
 @import 'pages/index';
 */
+@import 'core/reset';
+@import 'core/variables';
 
-:root {
-    --spotify-azul: #539cf2;
-    --spotify-verde: #26b758;
-    --spotify-negro: #030303;
-    --spotify-blanco: white;
-    --padding-secciones: 12px;
-}
-html{
-    font-size: 62.5%;
-}
 body {
     font-family: "Radio canada";
     font-weight: 100, 300, 400, 500, 700, 900;
@@ -28,35 +20,7 @@ body {
     min-height: 100vh;
 }
 
-
-.header{
-    position: sticky;
-    z-index: 100;
-    left: 0;
-    top: 0;
-    background-color: var(--spotify-negro);
-    color: var(--spotify-blanco);
-    height: 50px;
-    padding: var(--padding-secciones);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header__logo{
-    max-width: 80px;
-    
-}
-
-
-.header__menu--icon{
-    width: 2rem;
-    height: 2rem;
-}
-
-.menu__nav--list{
-    display:none;
-}
+@import "layout/header";
 
 main{
     flex-grow: 2;
