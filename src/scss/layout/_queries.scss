@@ -1,4 +1,4 @@
-@import '../core/variables';
+
 
 @media (min-width:480px){
     .premium{
@@ -27,7 +27,7 @@
         /* margin-bottom: 1rem; */
     }
 
-    .benefits__container{
+    /*.benefits__container{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -40,7 +40,7 @@
         width: 50%;
         display: flex;
         transform: translateX(1rem);
-    }
+    }*/
 
     .footer{
         width: 100%;
@@ -78,7 +78,7 @@
         padding-bottom: 5%;
     }
 
-    .benefits{
+    /*.benefits{
         padding-bottom: 30px;
     }
 
@@ -115,7 +115,7 @@
 
     .benefits__section--desc{
         text-align: center;
-    }
+    }*/
 
     .footer{
         max-height: 2.5rem;
