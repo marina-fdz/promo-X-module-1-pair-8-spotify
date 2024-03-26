@@ -6,3 +6,13 @@
 html{
     font-size: 62.5%;
 }
+
+body {
+    font-family: "Radio canada";
+    font-weight: 100, 300, 400, 500, 700, 900;
+    font-style: normal, italic;
+    // display: flex;
+    // flex-direction: column;
+    // flex-wrap: wrap;
+    min-height: 100vh;
+}
