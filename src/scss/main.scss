@@ -16,18 +16,10 @@ body {
     font-family: "Radio canada";
     font-weight: 100, 300, 400, 500, 700, 900;
     font-style: normal, italic;
-    /*display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;*/
     min-height: 100vh;
 }
 
 @import "layout/header";
-
-.main{
-    flex-grow: 2;
-}
-
 @import './layout/blue-section';
 @import './layout/white-section';
 @import './layout/footer';
